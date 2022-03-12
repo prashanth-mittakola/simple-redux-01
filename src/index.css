@@ -1,13 +1,76 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  margin: 0 auto;
+  width: 1000px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+section.main {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.input-main{
+  padding: 20px;
+}
+.edit-text{
+  color: #494ccf;
+  font-size: 2rem;
+}
+
+.img-div{
+  position: relative;
+}
+.img-div img {
+  width: 180px;
+  border: 5px solid #494ccf;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.edit-icon {
+  position: absolute;
+  top: 5px;
+  right: 165px;
+  background: white;
+  padding: 15px;
+  border-radius: 50%;
+  color: #808080;
+}
+
+.gt-symbol>p {
+  font-weight: bold;
+  color: #c3c3c3;
+  font-size: 1.8rem;
+}
+.sumbit-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #494ccf;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+
+    
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    
+    /* Firefox */
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+    
